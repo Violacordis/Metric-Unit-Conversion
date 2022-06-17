@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif ;
+}
+
+.unit-conversion {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    background-color: #1C1C1C;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    background-color: #FBF7EE;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.main {
+    width: 550px;
+    height: 260px;
+    text-align: center;
+    padding: 8px;
+    background-image: linear-gradient(246.26deg, #575cf5 0%, #FB3796 100%);
+    color: white;
+}
+
+.main h2 {
+    line-height: 38px ;
+    letter-spacing: 0.3px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+input {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 275px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fcc9e2 ;
+    padding: 16px;
+    color: #010338;
+    border-radius: 10px;
+}
+
+/* Removes spinner arrows when typing number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    height: 50px;
+    width: 275px;
+    background-color: #070a47 ;
+    padding: 16px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.result {
+    width: 550px;
+    height: 215px;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+}
+
+.mass {
+    width: 550px;
+    height: 51px;
+    margin-top: 24px;
+}
+.vol {
+    width: 550px;
+    height: 51px;
+    margin-top: 24px;
+}
+.length {
+    width: 550px;
+    height: 51px;
+    margin-top: 24px;
+}
+
+.result p {
+    font-weight: normal;
+    margin-top: 8px;
+    color: #960249;
+    font-size: 16px;
+}
+
+.result h3{
+    color: #040871;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
